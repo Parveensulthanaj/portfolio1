@@ -51,209 +51,203 @@ Upload to GitHub Pages for free hosting.
 ```
 port.html
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio | Cloud Computing</title>
+    <meta name="description" content="Portfolio of Parveen Sulthana, pre-final-year CSE student focused on Cloud Computing, AI and web development.">
+    <title>Parveen Sulthana | Cloud &amp; Software Developer</title>
     <link rel="stylesheet" href="port.css">
 </head>
-<body>
+<body style="background:linear-gradient(180deg,#e9d5ff 0%,#c4b5fd 45%,#fbcfe8 100%);">
 
     <header>
-        <nav class="navbar">
-            <a href="#home" class="logo">Portfolio<span>.</span></a>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+        <nav class="navbar" style="justify-content:center;gap:20px 40px;flex-wrap:wrap;">
+            <a href="#home" class="logo" style="color:#3b0764;">Parveen<span style="color:#db2777;">.</span></a>
+            <ul class="nav-links" style="flex-wrap:wrap;justify-content:center;">
+                <li><a href="#home" style="color:#3b0764;font-weight:600;">Home</a></li><li><a href="#about" style="color:#3b0764;font-weight:600;">About</a></li><li><a href="#skills" style="color:#3b0764;font-weight:600;">Skills</a></li><li><a href="#projects" style="color:#3b0764;font-weight:600;">Projects</a></li><li><a href="#experience" style="color:#3b0764;font-weight:600;">Experience</a></li><li><a href="#contact" style="color:#3b0764;font-weight:600;">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="hero" id="home">
-        <div class="hero-content">
-            <p class="tag">COMPUTER SCIENCE ENGINEERING</p>
-            <h1>Hello, I'm <span>Parveen Sulthana</span></h1>
-            <h2>Aspiring Cloud & Software Developer</h2>
-            <p class="intro">
-                I am a pre-final-year CSE student passionate about
-                Cloud Computing, web development, and AI-powered
-                solutions. I enjoy transforming ideas into practical
-                technology projects.
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" id="home">
+            <div class="hero-content" style="text-align:center;">
+                <p class="tag" style="color:#db2777;">COMPUTER SCIENCE ENGINEERING</p>
+                <h1 style="color:#3b0764;">Hello, I'm <span style="color:#db2777;">Parveen Sulthana</span></h1>
+                <h2 style="color:#6d28d9;">Aspiring Cloud &amp; Software Developer</h2>
+                <p class="intro" style="margin:0 auto;color:#1e1b4b;">
+                    I'm a pre-final-year CSE student who builds with
+                    Cloud Computing, computer vision and web technologies.
+                    I turn ideas into working projects, from AI-based
+                    inspection to cloud-hosted apps.
+                </p>
+                <div class="buttons" style="justify-content:center;">
+                    <a href="#projects" class="btn primary" style="background:linear-gradient(135deg,#7c3aed,#db2777);color:#ffffff;">Explore My Work</a>
+                    <a href="#contact" class="btn secondary" style="border:2px solid #6d28d9;color:#3b0764;">Contact Me</a>
+                </div>
+                <p>
+                    <span class="chip" style="background:#7c3aed;color:#fff;">AWS</span>
+                    <span class="chip" style="background:#db2777;color:#fff;">AI &amp; ML</span>
+                    <span class="chip" style="background:#0f766e;color:#fff;">Web Development</span>
+                    <span class="chip" style="background:#fbbf24;color:#3b0764;">Patent Holder</span>
+                </p>
+            </div>
+
+            <div class="hero-photo" style="text-align:center;">
+                <div class="profile-container" style="margin:0 auto 14px;background:linear-gradient(135deg,#7c3aed,#db2777,#fbbf24);box-shadow:0 15px 50px rgba(124,58,237,0.35);">
+                    <img src="parveen.png.jpeg"
+                         alt="Portrait of Parveen Sulthana"
+                         class="profile-img"
+                         width="310" height="350"
+                         loading="eager">
+                </div>
+                <p>
+                    <span class="chip" style="background:#7c3aed;color:#fff;">Pre-final year CSE</span>
+                    <span class="chip" style="background:#db2777;color:#fff;">Tamil Nadu</span>
+                </p>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section" id="about" style="margin:24px auto;background:rgba(255,255,255,0.40);border-radius:28px;text-align:center;">
+            <p class="tag" style="color:#db2777;">GET TO KNOW ME</p>
+            <h2 class="section-title" style="color:#3b0764;">About Me</h2>
+            <div class="about-card" style="background:#ede9fe;border:2px solid #7c3aed;text-align:center;">
+                <p style="color:#1e1b4b;">
+                    I'm a Computer Science Engineering student at
+                    Saveetha Engineering College, focusing on Cloud
+                    Computing and software development. Through projects
+                    and technical events, I've worked with AI, computer
+                    vision, web applications and cloud-based solutions.
+                </p>
+                <p style="color:#1e1b4b;">
+                    I aim to build reliable, scalable and user-friendly
+                    applications, and I keep learning new tools to get
+                    there.
+                </p>
+                <p>
+                    <span class="chip" style="background:#7c3aed;color:#fff;">Saveetha Engineering College</span>
+                    <span class="chip" style="background:#0f766e;color:#fff;">Tamil Nadu, India</span>
+                    <span class="chip" style="background:#db2777;color:#fff;">Open to internships</span>
+                </p>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section" id="skills" style="margin:24px auto;background:rgba(255,255,255,0.40);border-radius:28px;text-align:center;">
+            <p class="tag" style="color:#db2777;">WHAT I WORK WITH</p>
+            <h2 class="section-title" style="color:#3b0764;">Technical Skills</h2>
+
+            <div class="card-grid">
+                <div class="card" style="background:#e0f2fe;border:2px solid #2563eb;text-align:center;">
+                    <h3 style="color:#3b0764;">Cloud Computing</h3>
+                    <p>Hosting, storage and compute on AWS.</p>
+                    <div><span class="chip" style="background:#7c3aed;color:#fff;">AWS</span><span class="chip" style="background:#7c3aed;color:#fff;">Amazon S3</span><span class="chip" style="background:#7c3aed;color:#fff;">EC2</span></div>
+                </div>
+                <div class="card" style="background:#fce7f3;border:2px solid #db2777;text-align:center;">
+                    <h3 style="color:#3b0764;">Programming</h3>
+                    <p>Core languages for software and web development.</p>
+                    <div><span class="chip" style="background:#db2777;color:#fff;">Python</span><span class="chip" style="background:#db2777;color:#fff;">Java</span><span class="chip" style="background:#db2777;color:#fff;">HTML</span><span class="chip" style="background:#db2777;color:#fff;">CSS</span></div>
+                </div>
+                <div class="card" style="background:#dcfce7;border:2px solid #0f766e;text-align:center;">
+                    <h3 style="color:#3b0764;">AI &amp; Machine Learning</h3>
+                    <p>Detection and learning-based systems.</p>
+                    <div><span class="chip" style="background:#0f766e;color:#fff;">OpenCV</span><span class="chip" style="background:#0f766e;color:#fff;">YOLO</span><span class="chip" style="background:#0f766e;color:#fff;">ML Basics</span></div>
+                </div>
+                <div class="card" style="background:#fef3c7;border:2px solid #d97706;text-align:center;">
+                    <h3 style="color:#3b0764;">Tools</h3>
+                    <p>Everyday tools for building and collaborating.</p>
+                    <div><span class="chip" style="background:#fbbf24;color:#3b0764;">Git</span><span class="chip" style="background:#fbbf24;color:#3b0764;">GitHub</span><span class="chip" style="background:#fbbf24;color:#3b0764;">VS Code</span><span class="chip" style="background:#fbbf24;color:#3b0764;">Google Colab</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section" id="projects" style="margin:24px auto;background:rgba(255,255,255,0.40);border-radius:28px;text-align:center;">
+            <p class="tag" style="color:#db2777;">MY RECENT WORK</p>
+            <h2 class="section-title" style="color:#3b0764;">Featured Projects</h2>
+
+            <div class="card-grid">
+                <article class="card project-card" style="background:linear-gradient(160deg,#ede9fe,#ddd6fe);border:2px solid #7c3aed;border-top:6px solid #7c3aed;text-align:center;">
+                    <span class="project-number" style="color:#7c3aed;">AI &amp; ML</span>
+                    <h3 style="color:#3b0764;">Industrial Quality Inspection</h3>
+                    <p>A self-learning machine learning system that identifies defects in industrial products and supports quality control. This work is also recognised as a patent achievement.</p>
+                    <div><span class="chip" style="background:#7c3aed;color:#fff;">Machine Learning</span><span class="chip" style="background:#7c3aed;color:#fff;">Computer Vision</span></div>
+                </article>
+                <article class="card project-card" style="background:linear-gradient(160deg,#fce7f3,#fbcfe8);border:2px solid #db2777;border-top:6px solid #db2777;text-align:center;">
+                    <span class="project-number" style="color:#db2777;">ANALYTICS</span>
+                    <h3 style="color:#3b0764;">CallPulse</h3>
+                    <p>A sales call tracking and performance analytics application built for a hackathon.</p>
+                    <div><span class="chip" style="background:#db2777;color:#fff;">Web Development</span><span class="chip" style="background:#db2777;color:#fff;">Analytics</span></div>
+                    <a href="https://github.com/Parveensulthanaj/CallPulse-hack"
+                       target="_blank" rel="noopener noreferrer" style="color:#be185d;">
+                        View on GitHub ↗
+                    </a>
+                </article>
+                <article class="card project-card" style="background:linear-gradient(160deg,#d1fae5,#a7f3d0);border:2px solid #0f766e;border-top:6px solid #0f766e;text-align:center;">
+                    <span class="project-number" style="color:#0f766e;">GEO TECH</span>
+                    <h3 style="color:#3b0764;">TrailSight</h3>
+                    <p>A real-time GPS and geofencing project with location tracking, saved trails and geofence alerts.</p>
+                    <div><span class="chip" style="background:#0f766e;color:#fff;">GPS</span><span class="chip" style="background:#0f766e;color:#fff;">Geofencing</span></div>
+                </article>
+                <article class="card project-card" style="background:linear-gradient(160deg,#dbeafe,#bfdbfe);border:2px solid #2563eb;border-top:6px solid #2563eb;text-align:center;">
+                    <span class="project-number" style="color:#2563eb;">CLOUD</span>
+                    <h3 style="color:#3b0764;">Cloud-Hosted Web Application</h3>
+                    <p>A static website deployed on Amazon S3, exploring cloud hosting and infrastructure fundamentals.</p>
+                    <div><span class="chip" style="background:#2563eb;color:#fff;">AWS</span><span class="chip" style="background:#2563eb;color:#fff;">Amazon S3</span></div>
+                </article>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section class="section" id="experience" style="margin:24px auto;background:rgba(255,255,255,0.40);border-radius:28px;text-align:center;">
+            <p class="tag" style="color:#db2777;">MY JOURNEY</p>
+            <h2 class="section-title" style="color:#3b0764;">Experience &amp; Achievements</h2>
+
+            <div class="card-grid">
+                <div class="card" style="background:#ede9fe;border:2px solid #7c3aed;text-align:center;">
+                    <h3 style="color:#3b0764;">AI Internship</h3>
+                    <p><strong>Retech Solutions Pvt. Ltd.</strong></p><p>Worked on eye and face detection, computer vision and core AI/ML concepts.</p>
+                    <div><span class="chip" style="background:#7c3aed;color:#fff;">Computer Vision</span><span class="chip" style="background:#7c3aed;color:#fff;">Face Detection</span></div>
+                </div>
+                <div class="card" style="background:#fef3c7;border:2px solid #d97706;text-align:center;">
+                    <h3 style="color:#3b0764;">Patent Achievement</h3>
+                    <p>Self-Learning Machine Learning System for Industrial Quality Inspection.</p>
+                    <div><span class="chip" style="background:#fbbf24;color:#3b0764;">Patent</span><span class="chip" style="background:#fbbf24;color:#3b0764;">Machine Learning</span></div>
+                </div>
+                <div class="card" style="background:#fce7f3;border:2px solid #db2777;text-align:center;">
+                    <h3 style="color:#3b0764;">Technical Events</h3>
+                    <p>Took part in hackathons and technical learning activities, building projects with a team.</p>
+                    <div><span class="chip" style="background:#db2777;color:#fff;">Hackathons</span><span class="chip" style="background:#db2777;color:#fff;">Teamwork</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section contact" id="contact" style="margin:24px auto;background:rgba(255,255,255,0.40);border-radius:28px;text-align:center;">
+            <p class="tag" style="color:#db2777;">LET'S CONNECT</p>
+            <h2 class="section-title" style="color:#3b0764;">Contact Me</h2>
+            <p style="color:#1e1b4b;">
+                Interested in cloud computing, AI or a collaboration?
+                Send me a message and let's build something.
             </p>
-            <div class="buttons">
-                <a href="#projects" class="btn primary">Explore My Work</a>
-                <a href="#contact" class="btn secondary">Contact Me</a>
+            <div class="contact-links">
+                <a href="mailto:noorij750@gmail.com" style="background:linear-gradient(135deg,#7c3aed,#db2777);color:#ffffff;border:none;">Email Me</a>
+                <a href="https://www.linkedin.com/in/parveen-sulthana-a6469232a/"
+                   target="_blank" rel="noopener noreferrer" style="background:#0a66c2;color:#ffffff;border:none;">LinkedIn</a>
+                <a href="https://github.com/Parveensulthanaj"
+                   target="_blank" rel="noopener noreferrer" style="background:#24292f;color:#ffffff;border:none;">GitHub</a>
             </div>
-        </div>
+        </section>
 
-        <div class="profile-container">
-            <!-- PUT YOUR IMAGE HERE -->
-            <img src="parveen.png.jpeg"
-                 alt="Parveen Sulthana Profile Photo"
-                 class="profile-img">
-        </div>
-    </section>
+    </main>
 
-    <section class="section" id="about">
-        <p class="tag">GET TO KNOW ME</p>
-        <h2 class="section-title">About Me</h2>
-        <div class="about-card">
-            <p>
-                I am a Computer Science Engineering student at
-                Saveetha Engineering College, focusing on Cloud
-                Computing and software development. I have explored
-                AI, computer vision, web applications, and
-                cloud-based solutions through projects and
-                technical activities.
-            </p>
-            <p>
-                My goal is to build reliable, scalable, and
-                user-friendly applications while continuously
-                improving my technical skills.
-            </p>
-        </div>
-    </section>
-
-    <section class="section" id="skills">
-        <p class="tag">WHAT I WORK WITH</p>
-        <h2 class="section-title">Technical Skills</h2>
-
-        <div class="card-grid">
-            <div class="card">
-                <h3>☁️ Cloud Computing</h3>
-                <p>AWS, Amazon S3, EC2 fundamentals</p>
-            </div>
-            <div class="card">
-                <h3>💻 Programming</h3>
-                <p>Python, Java, HTML, CSS</p>
-            </div>
-            <div class="card">
-                <h3>🤖 AI & Machine Learning</h3>
-                <p>OpenCV, YOLO, machine learning basics</p>
-            </div>
-            <div class="card">
-                <h3>🛠️ Tools</h3>
-                <p>Git, GitHub, VS Code, Google Colab</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="section" id="projects">
-        <p class="tag">MY RECENT WORK</p>
-        <h2 class="section-title">Featured Projects</h2>
-
-        <div class="card-grid">
-            <div class="card project-card">
-                <span class="project-number">01 / AI & ML</span>
-                <h3>Industrial Quality Inspection</h3>
-                <p>
-                    A self-learning machine learning system
-                    designed to identify industrial product
-                    defects and support quality control.
-                </p>
-                <span class="chip">Machine Learning</span>
-                <span class="chip">Computer Vision</span>
-            </div>
-
-            <div class="card project-card">
-                <span class="project-number">02 / ANALYTICS</span>
-                <h3>CallPulse</h3>
-                <p>
-                    A sales call tracking and performance
-                    analytics application developed for a
-                    hackathon.
-                </p>
-                <span class="chip">Web Development</span>
-                <span class="chip">Analytics</span>
-                <a href="https://github.com/Parveensulthanaj/CallPulse-hack"
-                   target="_blank" rel="noopener noreferrer">
-                   View on GitHub ↗
-                </a>
-            </div>
-
-            <div class="card project-card">
-                <span class="project-number">03 / GEO TECH</span>
-                <h3>TrailSight</h3>
-                <p>
-                    A real-time GPS and geofencing project
-                    featuring location tracking, saved trails,
-                    and geofence alerts.
-                </p>
-                <span class="chip">GPS</span>
-                <span class="chip">Geofencing</span>
-            </div>
-
-            <div class="card project-card">
-                <span class="project-number">04 / CLOUD</span>
-                <h3>Cloud-Hosted Web Application</h3>
-                <p>
-                    A static website deployment project
-                    exploring Amazon S3 hosting and
-                    cloud infrastructure fundamentals.
-                </p>
-                <span class="chip">AWS</span>
-                <span class="chip">Amazon S3</span>
-            </div>
-        </div>
-    </section>
-
-    <section class="section" id="experience">
-        <p class="tag">MY JOURNEY</p>
-        <h2 class="section-title">Experience & Achievements</h2>
-
-        <div class="card-grid">
-            <div class="card">
-                <h3>AI Internship</h3>
-                <p>Retech Solutions Pvt. Ltd.</p>
-                <p>
-                    Worked on eye and face detection,
-                    computer vision, and AI/ML concepts.
-                </p>
-            </div>
-
-            <div class="card">
-                <h3>Patent Achievement</h3>
-                <p>
-                    Self-Learning Machine Learning System
-                    for Industrial Quality Inspection.
-                </p>
-            </div>
-
-            <div class="card">
-                <h3>Technical Events</h3>
-                <p>
-                    Participated in hackathons and contributed
-                    to technical learning and project activities.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <section class="section contact" id="contact">
-        <p class="tag">LET'S CONNECT</p>
-        <h2 class="section-title">Contact Me</h2>
-        <p>
-            Interested in technology, cloud computing,
-            or collaborating on a project? Let's connect.
-        </p>
-        <div class="contact-links">
-            <!-- Replace these example links with your own -->
-            <a href="mailto:noorij750@gmail.com">Email Me</a>
-            <a href="https://www.linkedin.com/in/parveen-sulthana-a6469232a/" target="_blank"
-               rel="noopener noreferrer">LinkedIn</a>
-            <a href="https://github.com/Parveensulthanaj"
-               target="_blank" rel="noopener noreferrer">GitHub</a>
-        </div>
-    </section>
-
-    <footer>
-        <p>© 2026 Parveen Sulthana | Designed with HTML & CSS</p>
+    <footer style="background:#3b0764;color:#f5d0fe;border-top:none;">
+        <p style="color:#f5d0fe;">© 2026 Parveen Sulthana | Designed with HTML &amp; CSS</p>
     </footer>
 
 </body>
@@ -261,326 +255,13 @@ port.html
 
 ```
 
-```
-port.css
-
-
-/* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
-
-:root {
-    --bg: #dac4df;
-    --card: #aca7ed;
-    --text: #0b0a0b;
-    --muted: #0c0c0c;
-    --accent: #4a66e4;
-    --border: #27364d;
-}
-
-body {
-    font-family: 'Inter', sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    line-height: 1.7;
-}
-
-a {
-    color: inherit;
-    text-decoration: none;
-}
-
-.navbar {
-    max-width: 1150px;
-    margin: auto;
-    padding: 22px 25px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    font-size: 25px;
-    font-weight: 800;
-}
-
-.logo span,
-.hero h1 span {
-    color: var(--accent);
-}
-
-.nav-links {
-    display: flex;
-    gap: 25px;
-    list-style: none;
-}
-
-.nav-links a {
-    color: var(--muted);
-    transition: 0.3s;
-}
-
-.nav-links a:hover {
-    color: var(--accent);
-}
-
-.hero {
-    max-width: 1150px;
-    min-height: 82vh;
-    margin: auto;
-    padding: 70px 25px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 50px;
-}
-
-.hero-content {
-    flex: 1;
-}
-
-.tag {
-    color: var(--accent);
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 3px;
-    margin-bottom: 18px;
-}
-
-.hero h1 {
-    font-size: clamp(34px, 5vw, 54px);
-    line-height: 1.2;
-    margin-bottom: 16px;
-}
-
-.hero h2 {
-    font-size: 22px;
-    color: #cbd5e1;
-    margin-bottom: 18px;
-}
-
-.intro {
-    color: var(--muted);
-    max-width: 580px;
-}
-
-.buttons {
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
-    margin-top: 30px;
-}
-
-.btn {
-    padding: 12px 21px;
-    border-radius: 8px;
-    font-weight: 600;
-    transition: 0.3s;
-}
-
-.primary {
-    background: var(--accent);
-    color: #07111f;
-}
-
-.secondary {
-    border: 1px solid var(--border);
-}
-
-.btn:hover {
-    transform: translateY(-3px);
-}
-
-.profile-container {
-    width: 310px;
-    height: 350px;
-    flex-shrink: 0;
-    padding: 8px;
-    border-radius: 24px;
-    background: linear-gradient(135deg, #60a5fa, #a78bfa);
-    box-shadow: 0 15px 50px #3b82f633;
-}
-
-.profile-img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 19px;
-    background: var(--card);
-}
-
-.section {
-    max-width: 1150px;
-    margin: auto;
-    padding: 80px 25px;
-}
-
-.section-title {
-    font-size: 34px;
-    margin-bottom: 30px;
-}
-
-.about-card,
-.card {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 16px;
-    padding: 25px;
-}
-
-.about-card p {
-    color: var(--muted);
-    margin-bottom: 15px;
-}
-
-.about-card p:last-child {
-    margin-bottom: 0;
-}
-
-.card-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 22px;
-}
-
-.card {
-    transition: transform 0.3s, border-color 0.3s;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-    border-color: var(--accent);
-}
-
-.card h3 {
-    font-size: 19px;
-    margin-bottom: 12px;
-}
-
-.card p {
-    color: var(--muted);
-    margin-bottom: 10px;
-}
-
-.project-number {
-    color: var(--accent);
-    font-size: 11px;
-    letter-spacing: 2px;
-    font-weight: 700;
-}
-
-.chip {
-    display: inline-block;
-    color: #0e0e0e;
-    background: #86dce7;
-    padding: 5px 10px;
-    margin: 8px 5px 0 0;
-    border-radius: 5px;
-    font-size: 12px;
-}
-
-.project-card > a {
-    display: block;
-    color: var(--accent);
-    margin-top: 18px;
-    font-weight: 600;
-}
-
-.contact {
-    text-align: center;
-}
-
-.contact > p:not(.tag) {
-    color: var(--muted);
-}
-
-.contact-links {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-top: 25px;
-}
-
-.contact-links a {
-    padding: 10px 20px;
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    transition: 0.3s;
-}
-
-.contact-links a:hover {
-    background: var(--accent);
-    color: var(--bg);
-}
-
-footer {
-    text-align: center;
-    padding: 25px;
-    border-top: 1px solid var(--border);
-    color: var(--muted);
-    font-size: 13px;
-}
-
-/* Mobile responsive design */
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .nav-links {
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 12px 18px;
-    }
-
-    .hero {
-        flex-direction: column-reverse;
-        text-align: center;
-        padding-top: 40px;
-        gap: 35px;
-    }
-
-    .profile-container {
-        width: 230px;
-        height: 270px;
-    }
-
-    .buttons {
-        justify-content: center;
-    }
-
-    .card-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .section {
-        padding: 55px 20px;
-    }
-
-    .section-title {
-        font-size: 28px;
-    }
-}
-```
-
 
 ## OUTPUT
-![alt text](port/portapp/static/image1.png)
-![alt text](port/portapp/static/image2.png)
-![alt text](port/portapp/static/image3.png)
-![alt text](port/portapp/static/image4.png)
-![alt text](port/portapp/static/image5.png)
-![alt text](port/portapp/static/image6.png)
-
+![alt text](port/portapp/static/pp1.png)
+![alt text](port/portapp/static/pp2.png)
+![alt text](port/portapp/static/pp3.png)
+![alt text](port/portapp/static/pp4.png)
+![alt text](port/portapp/static/pp5.png)
+![alt text](port/portapp/static/pp6.png)
 ## RESULT
 The program for creating Portfolio using HTML and CSS is executed successfully.
